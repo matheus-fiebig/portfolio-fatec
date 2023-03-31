@@ -12,3 +12,7 @@ precisa criar um produto, visualiza-logo etc
 Por exemplo a estabilidade, usuários conectados ao mesmo tempo
 > 2.3 De dois exemplos de tradeoff em requisitos não funcionais. Trocar manutenção em prol da 
 velocidade ou a manutenção em prol da portabilidade
+
+3 - Definição de Engenharia de Software (programação + software + escala + trade) com suas palavras
+Engenharia de software é: programação adicionado o fator tempo. É a escolher a melhor tecnologia para seu problema, considerado seus prós, seus contras, e 
+os seus recursos disponiveis. Além disso é necessario pensar na sua escalabilidade, quantos usuarios suportam, se é uma linguagem de baixo/alto nivel, etc 
