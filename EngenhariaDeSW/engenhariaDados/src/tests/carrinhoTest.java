@@ -1,7 +1,5 @@
 package src.tests;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -10,9 +8,9 @@ import src.carrinho.CarrinhoDeCompra;
 import src.carrinho.Categoria;
 import src.carrinho.Produto;
 
-public class carrinhoTest {
+public class CarrinhoTest {
     private final CarrinhoDeCompra carrinhoCompra;
-    public carrinhoTest() {
+    public CarrinhoTest() {
         carrinhoCompra = new CarrinhoDeCompra();
     }
 
