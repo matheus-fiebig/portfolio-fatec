@@ -10,7 +10,7 @@ import src.carrinho.Autenticacao;
 import src.carrinho.Usuario;
 
 public class AutenticacaoTest {
-    private final Autenticacao sistema;
+    private final Autenticacao auth;
     
     public AutenticacaoTest() {
         var usuarios = new ArrayList<Usuario>();
@@ -19,7 +19,7 @@ public class AutenticacaoTest {
         usuarios.add(new Usuario("u2", "s2"));
         usuarios.add(new Usuario("u3", "s3"));
 
-        sistema = new Autenticacao(usuarios);
+        auth = new Autenticacao(usuarios);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class AutenticacaoTest {
         var senha = "s1";
 
         //Act
-        var loginFoiSucesso = sistema.login(email, senha);
+        var loginFoiSucesso = auth.login(email, senha);
 
         //Assert
         assertTrue(loginFoiSucesso);
@@ -42,7 +42,7 @@ public class AutenticacaoTest {
         var senha = "s2";
 
         //Act
-        var loginFoiSucesso = sistema.login(email, senha);
+        var loginFoiSucesso = auth.login(email, senha);
 
         //Assert
         assertTrue(!loginFoiSucesso);
@@ -55,8 +55,8 @@ public class AutenticacaoTest {
         var senha = "s1";
 
         //Act
-        sistema.login(email, senha);
-        var usuarioLogado = sistema.temUsuarioLogado();
+        auth.login(email, senha);
+        var usuarioLogado = auth.temUsuarioLogado();
 
         //Assert
         assertTrue(usuarioLogado);
@@ -69,9 +69,9 @@ public class AutenticacaoTest {
         var senha = "s1";
 
         //Act
-        sistema.login(email, senha);
-        sistema.logout();
-        var usuarioLogado = sistema.temUsuarioLogado();
+        auth.login(email, senha);
+        auth.logout();
+        var usuarioLogado = auth.temUsuarioLogado();
 
         //Assert
         assertTrue(!usuarioLogado);
