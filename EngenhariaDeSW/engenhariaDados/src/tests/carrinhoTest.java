@@ -15,6 +15,16 @@ public class CarrinhoTest {
     }
 
     @Test
+    public void getCarrinhoDeveRetornarVazioQuandoNaoTiverItens(){
+        //Arrange & Act
+        var carrinho = carrinhoCompra.getCarrinho();
+
+        //Assert
+        assertTrue(carrinho.size() == 0);
+    }
+
+
+    @Test
     public void getTotalDeveriaRetornarASomaDeTodosProdutos(){
         //Arrange
         carrinhoCompra.adicionarProduto(new Produto("P1", 1, new Categoria("Teste")));
