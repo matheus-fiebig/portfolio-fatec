@@ -60,7 +60,8 @@ Como pode ser visto, aqui esta a implementação do lançamento de horas, na qua
 Participei também do desenvolvimento da tela de cadastro e de visualização do CR, duas telas bem simples nas quais o usuário apenas tinha o controle de quais centro de custo estavam cadastrados, podendo fazer as operações básicas de um CRUD. A tela em si não possuia nenhuma regra de negócio e apenas servia para popular as comboboxes do sistema.
 
 <details>
-COLOCAR A IMAGEM DE GERENCIAMENTO DE CR AQUI
+
+<img src="https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/assets/2sem/tela_gerenciamento%20cr.png"></img>
 
 Como pode ser visto acima, o usuário selecionava um CR e selecionava qual integrante do sistema ia ser atribuído aquele CR. Nesta tela fui responsável, também, por toda a parte de criação do Layout e regras de cadastro / visualização
 </details>
@@ -69,14 +70,72 @@ Como pode ser visto acima, o usuário selecionava um CR e selecionava qual integ
 Por fim como desenvolvedor participei do desenvolvimento da tela de Feedback. Esta tela é um complemento da tela de Lançamento de Horas e possuía regras similares a ela. Participei principalemente do parte de aprovação/reprovação de horas na qual um modal aparecia para o usuário. Este modal permite ao usuário descrever o motivo da reprovação.
 
 <details>
-    COLOCAR FOTO DA TELA
+    ```
+    
+    FeedbackController.java
+     {
+                        btnAprovar.setOnAction((ActionEvent event) -> {
+                            ExtratoHoraModel extratoHora = getTableView().getItems().get(getIndex());
+                            extratoHora.setStatus(EtapaExtrato.APROVADA);
 
-    COLOCAR CODIGO E EXPLICAR
+                            if (EtapaExtrato.APROVADA == extratoHora.getStatus()) {
+                                extratoHoraDao.aprovarHoraExtra(extratoHora);
+                                carregarExtratos();
+                            }
+                        });
+                    }
+                    {
+                        btnReprovar.setOnAction((final ActionEvent event) -> {
+                            final ExtratoHoraModel extratoHora = getTableView().getItems().get(getIndex());
+                            extratoHora.setStatus(EtapaExtrato.REPROVADA);
+
+                            if (EtapaExtrato.REPROVADA == extratoHora.getStatus()) {
+                                extratoHoraDao.reprovarHoraExtra(extratoHora);
+                                FeedBackRetorno.motivo(extratoHoraDao, extratoHora);
+                                carregarExtratos();
+                            }
+                        });
+                    }
+
+    ExtratoHoraDao.java
+    public void aprovarHoraExtra(ExtratoHoraModel extratoHora) {
+        try {
+            String sql = "UPDATE Extrato_Hora SET Id_Etapa_Extrato = 2 WHERE Id = " + extratoHora.getId();
+            executeUpdate(sql);
+            extratoHora.setStatus(EtapaExtrato.APROVADA);
+
+        } catch (Exception e) {
+            e.addSuppressed(e);
+        }
+
+    }
+
+    public void reprovarHoraExtra(ExtratoHoraModel extratoHora) {
+        try {
+            String sql = "UPDATE Extrato_Hora SET Id_Etapa_Extrato = 3 WHERE Id = " + extratoHora.getId();
+            executeUpdate(sql);
+            extratoHora.setStatus(EtapaExtrato.REPROVADA);
+
+        } catch (Exception e) {
+            e.addSuppressed(e);
+        }
+    }
+                    
+    ```
+
+Como pode ser observado no código acima, a essência da funcionalidade de reprovação/aprovação de horas extras reside em uma atualização no banco de dados, que ocorre assim que o botão de aprovar/reprovar e clicado, com base no feedback fornecido pelo gestor ou administrador do sistema.
 </details>
 
 Como scrum master, minhas contribuições foram:
-#### - Criaçao e acompanhamento do burndown:
-#### - Acompanhamento diario das entregas do time:
+#### - Criaçao e acompanhamento das entregas:
+
+Também fui responsável pela criação e acompanhamento das entregas da squad durante todas as sprints. Acompanhando de perto cada impedimento que o time pudesse vir a sofrer e fornecendo o devido apoio para cada integrante nesses momentos.
+
+Também fui responsável pela criação manual do burndown e pela atualização diária de seus valores, como parte desse processo. A principal razão para a implementação do burndown foi a ausência de uma ferramenta tecnológica que auxiliasse no acompanhamento, como o Jira, na época. Para mais detalhes, segue o link dos <a href="https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/2sem/assets/burndown/">burndowns</a>.
+
+#### - Status report para o M2:
+
+Por fim, eu era responsável por reportar semanalmente ao nosso M2 o andamento completo das entregas realizadas pela equipe ao longo das sprints. Esse acompanhamento envolvia a análise detalhada do progresso, identificando possíveis atrasos ou desvios e propondo soluções. Além disso, compartilhava regularmente os métodos e estratégias que utilizei para lidar com conflitos e remover impedimentos dentro da squad, garantindo a fluidez do trabalho e a manutenção do foco nos objetivos estabelecidos. Meu papel incluía tanto a mediação de problemas entre os integrantes quanto a antecipação de desafios que pudessem comprometer o sucesso das entregas.
 
 #### Hard Skills
 <details>
@@ -89,19 +148,23 @@ Como scrum master, minhas contribuições foram:
     </tr>
     <tr>
       <td>SQL</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>MYSQL</td>
-      <td>★★★★☆☆☆☆☆☆</td>
+      <td>★★★★★★★☆☆☆</td>
     </tr>
     <tr>
-      <td>HTML/CSS</td>
+      <td>SceneBuilder/HTML/CSS</td>
+      <td>★★★★★★★★☆☆</td>
+    </tr>
+    <tr>
+      <td>JAVA</td>
       <td>★★★★★★★☆☆☆</td>
     </tr>
     <tr>
       <td>Scrum</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>★★★★☆☆☆☆☆☆</td>
     </tr>
   </table>
 </details>
@@ -117,19 +180,19 @@ Como scrum master, minhas contribuições foram:
     </tr>
     <tr>
       <td>Comunicação</td>
-      <td>★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Trabalho em Equipe</td>
       <td>★★★★★★☆☆☆☆</td>
     </tr>
     <tr>
-      <td>Resolução de Problemas</td>
+      <td>Trabalho em Equipe</td>
       <td>★★★★★★★☆☆☆</td>
     </tr>
     <tr>
+      <td>Resolução de Problemas</td>
+      <td>★★★★★★★★★☆</td>
+    </tr>
+    <tr>
       <td>Responsabilidade</td>
-      <td>★★★★★★★★☆☆</td>
+      <td>★★★★★★★★★☆</td>
     </tr>
   </table>
 </details>
