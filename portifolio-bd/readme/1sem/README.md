@@ -7,7 +7,7 @@
 **A SOLUÇÃO** proporcionou ao usuário uma avaliação 360° dos times dos quais ele fazia parte e permitiu o acompanhamento de suas notas em um dashboard interativo, visando monitorar sua evolução a cada sprint.  <br>
 Além disso, o sistema permite que o administrador gerencie os usuários, a composição dos times e o fluxo das sprints.
 
-[GIT](https://github.com/matheus-fiebig/portifolio-bd/tree/main/1sem)
+[[GIT](https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/1sem/README.md)]
 
 #### Tecnologias Utilizadas
 - Python: Linguagem utilizada no backend para criação dos endpoints e implementação dos casos de uso.
