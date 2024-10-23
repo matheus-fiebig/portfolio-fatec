@@ -205,6 +205,7 @@ O fluxo era realizado da seguinte maneira:
 
 Como scrum master, minhas contribuições foram:
 #### - Acompanhamento das entregas:
+Fui responsável pelo monitoramento contínuo e pela cobrança diária das entregas da equipe, elaborando relatórios semanais de status para o M2, através da utilização do JIRA.
 
 #### Hard Skills
 <details>
