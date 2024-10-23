@@ -216,20 +216,20 @@ Como scrum master, minhas contribuições foram:
       <th width="300px">Classificação</th>
     </tr>
     <tr>
-      <td>SQL</td>
+      <td>Python</td>
+      <td>★★★★★★☆☆☆☆</td>
+    </tr>
+    <tr>
+      <td>HTML/CSS</td>
+      <td>★★★★★★★★★☆</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
       <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
-      <td>MYSQL</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>SceneBuilder/HTML/CSS</td>
-      <td>★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>JAVA</td>
-      <td>★★★★★★★☆☆☆</td>
+      <td>FastAPI</td>
+      <td>★★★★★☆☆☆☆☆</td>
     </tr>
     <tr>
       <td>Scrum</td>
@@ -249,19 +249,19 @@ Como scrum master, minhas contribuições foram:
     </tr>
     <tr>
       <td>Comunicação</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>Trabalho em Equipe</td>
-      <td>★★★★★★★☆☆☆</td>
+      <td>★★★★★★★★★☆</td>
     </tr>
     <tr>
       <td>Resolução de Problemas</td>
-      <td>★★★★★★★★★☆</td>
+      <td>★★★★★★★★★★</td>
     </tr>
     <tr>
       <td>Responsabilidade</td>
-      <td>★★★★★★★★★☆</td>
+      <td>★★★★★★★★★★</td>
     </tr>
   </table>
 </details>
