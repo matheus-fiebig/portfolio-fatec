@@ -79,12 +79,12 @@ Além disso esse componente é subdivido com um componente filho para que o comp
 Desenvolvi o controle para exibição das telas de lançamento de horas, incluindo toda a funcionalidade de visualização das horas e seu fluxo de aprovação/reprovação . Isso envolveu a comunicação HTTP, criação do layout e a vinculação com o framework VUE. Além de necessitar do uso das diretivas do vue, como v-if e v-for.
 
 <details>
-<img src="assets\3_sem_lancamento_hora.png" width=1150 /></img>
+<img src="..\..\assets\3sem\3_sem_lancamento_hora.png" width=1150 /></img>
 
 Como pode ser visto na imagem acima, a tela de lançamento de horas envolve varios passos e diretivas. 
 As diretivas de v-for são utilizadas para gerar as diversas linhas do sistema. O v-if controla todo o complexo sistema de regras de segurança, no qual permitirá ou não, ao usuário (dependendo do seu nível de permissão) aprovar ou reprovar hora. Por fim o v-model é responsável por realizar o <i>bind</i> do filtro com as variáveis de código, permitindo assim, realizar a requisição HTTP filtro para popular os dados 
 
-<img src="assets\3_sem_lancamento_hora_v_for.png" width=300 /></img>
+<img src="..\..\assets\3sem\3_sem_lancamento_hora_v_for.png" width=300 /></img>
 
 Acima esta um exemplo da utilização das <i>diretivas</i> do vue retratadas no parágrafo anterior para geração de contúdo dinâmico
 
@@ -95,12 +95,12 @@ Criei todas as operações do CRUD para as Requisições de Mudança (CRs), incl
 
 <details>
 A feature do C.R é composta por algumas telas, primeiramente temos a tela de visualização e controle. Nela é possível realizar todas as ações de controle do CR além de visualiza-los (por exemplo deletar ou editar) 
-<img src="assets\3_sem_cr.png" width=1000 /></img>
+<img src="..\..\assets\3sem\3_sem_cr.png" width=1000 /></img>
 
 <br>
 Além disso temos o cadastro de CR que faz uma requisição POST para o backend com todos os dados necessários para salvar um C.R ou edita-lo (depende da ação do usuário).
 
-<img src="assets\3_sem_cr_cadastro.png" width=300 /></img>
+<img src="..\..\assets\3sem\3_sem_cr_cadastro.png" width=300 /></img>
 
 <br>
 Para finalizar temos a feature exclusiva de CR que é o controle de usuário por cr. Nessa feature temos um controle de N para N, ou seja, conseguimos colocar qualquer usuário em qualquer CR e em quantos CR quisermos. Desse modo é utilizado subtração e adição com listas para controlar o estado de qual usuário deve ser persistido no backend, como pode ser visto no código abaixo, no qual controlamos qual usuário e adicionado ao cr e qual é removido dele
