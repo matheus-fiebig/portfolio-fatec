@@ -82,7 +82,126 @@ Devido à limitação do uso de banco de dados nesta API, a squad optou pelo uso
 </details>
 
 #### - Criação da tela de gestão de sprints:
-#### - Criação da tela de gestão de autenticação:
+Fui responsavel pela criacao de toda tela de gestão de sprints (Visualizacao, Cadastro, Edicao e Delecao). 
+<details>
+Como não foi utilizado nenhum framework, toda a renderização desta tela é feita com JavaScript puro e manipulação direta do DOM. Além disso, nossas rotas de backend eram muito simples, o que fazia com que muitas consultas às entidades criadas retornassem apenas objetos simples, sem relacionamentos aninhados. Isso aumentava a complexidade na criação da tela, pois era necessário fazer manualmente a junção de diversas entidades, muitas vezes utilizando a função <i>filter</i> para exibir seus valores na tela.
+  
+  ```
+
+          async function loadSprints() {
+            var sprints = await getSprints();
+            var times = await getTeams();
+            var tbody = document.getElementById('tbody-sprint');
+           
+            for (var i = 0; i < sprints.length; i++) {
+                tbody.innerHTML += `
+                    <tr class=\"tr-shadow\"> 
+                        <td> ${sprints[i].name} </td>
+                        <td> ${sprints[i].start_date} </td>
+                        <td> ${sprints[i].end_date }</td>
+                        <td> ${times.filter(x => x.id == sprints[i].team_id)[0]?.times} </td>
+                        <td>
+                            <div class=\"table-data-feature\">
+                                <button 
+                                    class=\"item\" 
+                                    data-toggle=\"modal\" 
+                                    data-target=\"#createsprint\" 
+                                    data-placement=\"top\"
+                                    title=\"Editar\" 
+                                    onclick=\"loadSprint(${sprints[i].id})\"
+                                >
+                                    <i class=\"zmdi zmdi-edit\"></i>
+                                </button>
+                                <button 
+                                    class=\"item\" 
+                                    data-toggle=\"tooltip\" 
+                                    data-placement=\"top\"
+                                    title=\"Deletar\" 
+                                    onclick=\"deleteSprint(${sprints[i].id})\"
+                                > 
+                                    <i class=\"zmdi zmdi-delete text-danger\"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class=\"spacer\">
+                    </tr>
+                `
+            }
+        }
+  
+  ```
+
+Como pode-se ver no código acima, uma simples consulta resultava em métodos excessivamente complexos. Para contornar isso, propus uma solução que envolvia a divisão dos scripts por localidade. Dessa forma, qualquer script poderia ser reutilizado em diferentes partes do sistema, distribuindo as responsabilidades em arquivos distintos e facilitando a codificação.
+
+  ```
+
+         function insertOrUpdate(){
+            var json = formToJson("sprint-form");
+
+            if(json["id"] == 0){
+                if(!isTeamChoosed) {
+                    createSprintForGroup(json)
+                    return;
+                }
+                createSprint(json);
+                return;
+            }
+
+            updateSprint(json)
+        }
+
+  ```
+Essa divisão de responsabilidades facilitou muito a execução de qualquer script de inserção, deleção ou atualização, pois centralizou-se alguns métodos repetitivos e frequentemente utilizados (como formToJson) e outros que realizavam apenas comunicação HTTP (como createSprint e updateSprint) em um script separado.
+
+</details>
+
+#### - Criação da tela de login e  controle de permissionamento:
+Para implementar o sistema de permissionamento nesta API, desenvolvi um controle de rotas no frontend, permitindo que cada usuário visualizasse apenas os recursos compatíveis com seu nível de permissão (no caso, havia dois tipos: administrador e usuário comum). Como mencionado anteriormente, a ausência de um framework tornava o desenvolvimento mais desafiador. Para superar essa dificuldade, criei um script que inseria dinamicamente toda a barra lateral na página do usuário, levando em consideração o seu nivel de permissionamento.
+
+<details>
+O fluxo era realizado da seguinte maneira:
+  
+1 - O usuário realizava o login na tela abaixo, e as informações do usuário autenticado, incluindo seu nível de permissão no sistema, eram armazenadas no local storage.
+
+<img src="https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/assets/1sem/tela_login.png"></img>
+
+
+2 -  O script de criação dinâmica da sidebar era injetado para gerenciar o controle de permissionamento nas páginas subsequentes à login. Como mostrado no código abaixo, ocorre a substituição de todo o componente demarcado como menu-navbar por um HTML controlado pelo nível de permissão do usuário (admin-only). Essa abordagem reduzia o controle manual da sidebar no HTML, já que não era mais necessário adicionar cada item manualmente em todas as telas, diminuindo, por sua vez, as chances de erro.
+  ```
+
+  var user = JSON.parse(window.localStorage.getItem('user'));
+  var sidebarElement = document.getElementById("menu-navbar");
+  for (var i = 0; i < sidebar.length; i++) {
+      var id = sidebar[i].link;
+  
+      if (sidebar[i]["admin-only"])
+          continue;
+  
+      sidebarElement.innerHTML +=
+          `
+          <li id="${id}">
+              <a 
+                  href="${sidebar[i].link}"  
+              >
+                  <i class="${sidebar[i].icon}"></i>${sidebar[i].description}
+              </a>
+          </li>
+      `
+  }
+  
+  //Sidebar active
+  var currentPage = window.location.href;
+  var pageHtml = currentPage.substring(currentPage.lastIndexOf('/') + 1, currentPage.length)
+  
+  sidebarElement.innerHTML = sidebarElement.innerHTML.replace(',', '')
+  var el = document.getElementById(pageHtml)
+  el.classList.add('active');
+
+  ```
+  
+</details>
+
 
 Como scrum master, minhas contribuições foram:
 #### - Acompanhamento das entregas:
