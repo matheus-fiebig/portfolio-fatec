@@ -38,8 +38,42 @@ Configurei o Axios nesta tela para apontar consistentemente para uma URL predete
 </details>
 
 #### - Desenvolvimento da tela de Avalicao de Parceiros :
+Esta tela tinha como principal objetivo permitir os feedback dos parceiros.
+<details>
+  A tela não apresentava grande complexidade técnica e, assim como na tela de lacunas de habilidades, desenvolvi todo o layout e a integração com o backend. Em decorrência da falta de complexidade técnica foi possível oferecer uma experiência responsiva ao usuário, exibindo uma notificação de sucesso (toast) após cada ação de salvamento no backend, informando o usuário sobre a realização bem-sucedida das alterações, conforme demonstrado no código abaixo."
 
+```
+function salvarNota(data: any) {
+    axios.post("avaliacoes/criar-avaliacao", {
+        nota: +data.nota,
+        dataAvaliacao: new Date(),
+        expertiseId: data.expertiseId,
+        trilhaId: data.trilhaId,
+        feedback: data.feedback,
+        empresaId: data.empresaId,
+        colaboradorId: data.colaboradorId
+    })
+        .then(() => {
+            const toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+            toast.fire({
+                icon: "success",
+                title: "Signed in successfully"
+            });
+        });
+}
 
+```
+</details>
 
 #### - Desenvolvimento do layout padrão e organização da estrutura CSS:
 Criei o layout da padrão de todas as telas (header, footer e content)
