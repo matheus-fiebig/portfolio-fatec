@@ -6,7 +6,7 @@
 <br>
 **A SOLUÇÃO** proposta foi desenvolver um sistema capaz de gerenciar usuários, empresas parceiras e trilhas de ensino. Além disso, permitia o acompanhamento em tempo real do progresso de cada parceiro e a emissão de notificações com base na expiração de seus cursos.
 
-![image](https://github.com/user-attachments/assets/28a7c44d-4778-46d1-828b-0a2fbb264964)
+[GIT](https://github.com/matheus-fiebig/portifolio-bd/tree/main/4sem)
 
 #### Tecnologias Utilizadas
 - Java: Linguagem principal utilizada no backend, amplamente aplicada no desenvolvimento web e mobile. Orientada a objetos, é a principal linguagem ensinada na FATEC. Foi selecionada em função dos requisitos não funcionais.
@@ -31,7 +31,7 @@ Esta tela tinha como objetivo permitir o acompanhamento da progressao dos parcei
 <details>
 Fui responsável por todo o desenvolvimento, reproduzindo fielmente o design solicitado pelo nosso UI no Figma e implementando a integração completa entre o backend e o frontend. A interface, embora não fosse excessivamente complexa, atendeu plenamente aos requisitos, conforme demonstrado abaixo.
   
-![image](https://github.com/user-attachments/assets/4fbf8f59-0d74-4b88-ade2-9c6f47c4b729)
+![image](https://github.com/user-attachments/assets/28a7c44d-4778-46d1-828b-0a2fbb264964)
 
 Configurei o Axios nesta tela para apontar consistentemente para uma URL predeterminada, simplificando o desenvolvimento e facilitando futuras implementações.
 </details>
