@@ -6,8 +6,7 @@
 <br>
 **A SOLUÇÃO** proposta foi desenvolver um sistema capaz de gerenciar usuários, empresas parceiras e trilhas de ensino. Além disso, permitia o acompanhamento em tempo real do progresso de cada parceiro e a emissão de notificações com base na expiração de seus cursos.
 
-
-[GIT](https://github.com/matheus-fiebig/portifolio-bd/tree/main/4sem)
+![image](https://github.com/user-attachments/assets/28a7c44d-4778-46d1-828b-0a2fbb264964)
 
 #### Tecnologias Utilizadas
 - Java: Linguagem principal utilizada no backend, amplamente aplicada no desenvolvimento web e mobile. Orientada a objetos, é a principal linguagem ensinada na FATEC. Foi selecionada em função dos requisitos não funcionais.
