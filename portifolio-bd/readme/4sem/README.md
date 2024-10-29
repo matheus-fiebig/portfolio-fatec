@@ -27,7 +27,112 @@ Nesse projeto atuei principalemnte no frontend
 
 Como desenvolvedor, minhas contribuições foram:
 
-#### - Desenvolvimento :
+#### - Desenvolvimento da tela de Lacunas de Habilidade :
+Esta tela tinha como objetivo permitir o acompanhamento da progressao dos parceiros da Oracle em uma determinada trilha. 
+<details>
+Fui responsável por todo o desenvolvimento, reproduzindo fielmente o design solicitado pelo nosso UI no Figma e implementando a integração completa entre o backend e o frontend. A interface, embora não fosse excessivamente complexa, atendeu plenamente aos requisitos, conforme demonstrado abaixo.
+  
+![image](https://github.com/user-attachments/assets/4fbf8f59-0d74-4b88-ade2-9c6f47c4b729)
+
+Configurei o Axios nesta tela para apontar consistentemente para uma URL predeterminada, simplificando o desenvolvimento e facilitando futuras implementações.
+</details>
+
+#### - Desenvolvimento da tela de Avalicao de Parceiros :
+
+
+
+#### - Desenvolvimento do layout padrão e organização da estrutura CSS:
+Criei o layout da padrão de todas as telas (header, footer e content)
+<details>
+Para criar o layout padrão da aplicação, utilizei a funcionalidade de roteamento do Vue. Essa feature permite que todas as rotas filhas de um determinado componente sejam renderizadas dentro da rota pai, o que é uma das bases para a construção de aplicações de página única (SPA) no Vue, Angular e React. No arquivo principal da aplicação, defini toda a estilização do navbar, corpo e footer (representados pelas classes menu, content e footer, respectivamente, no HTML abaixo). Dentro do corpo, utilizei a tag router-view, que instrui o Vue sobre onde renderizar os componentes. Dessa forma, todas as páginas criadas no sistema seguirão o padrão previamente definido.
+
+```
+
+ <div class="page">
+        <nav class="menu">
+            <div class="menu__logo">
+                <img src="./assets/logo.png">
+            </div>
+            <div class="menu__links">
+                <router-link to="/visualizacaoparceiro">Parceiros</router-link>
+                <router-link to="/rastreio">Rastreio</router-link>
+                <router-link to="/acompanhamento">Acompanhamento</router-link>
+                <router-link to="/visualizacao">Habilidades</router-link>
+                <router-link to="/avaliacao">Avaliações</router-link>
+                <router-link to="/Dashboard">Dashboard</router-link>
+                <router-link to="/notificacoes">Configurações</router-link>
+                        <router-link to="/por-estado-mapa">Parceiros por Estado</router-link>
+            </div>
+        </nav>
+
+        <div class="content">
+            <router-view />
+        </div>
+
+        <div class="footer">
+            <img src="./assets/logo.png">
+        </div>
+    </div> <div class="page">
+        <nav class="menu">
+            <div class="menu__logo">
+                <img src="./assets/logo.png">
+            </div>
+            <div class="menu__links">
+                <router-link to="/visualizacaoparceiro">Parceiros</router-link>
+                <router-link to="/rastreio">Rastreio</router-link>
+                <router-link to="/acompanhamento">Acompanhamento</router-link>
+                <router-link to="/visualizacao">Habilidades</router-link>
+                <router-link to="/avaliacao">Avaliações</router-link>
+                <router-link to="/Dashboard">Dashboard</router-link>
+                <router-link to="/notificacoes">Configurações</router-link>
+                        <router-link to="/por-estado-mapa">Parceiros por Estado</router-link>
+            </div>
+        </nav>
+
+        <div class="content">
+            <router-view />
+        </div>
+
+        <div class="footer">
+            <img src="./assets/logo.png">
+        </div>
+    </div>
+
+```
+
+Outro aspecto importante dessa tarefa foi a padronização do isolamento do CSS dentro dos componentes. Embora alguns frameworks modernos já implementem o isolamento de estilo por componente, o Vue, por outro lado, não possui essa funcionalidade nativa. Isso fazia com que o CSS de cada componente que desenvolvíamos afetasse os demais. Para contornar essa limitação, organizei o time para adotar padrões de estilização oferecidos pelo SCSS (um pré-processador CSS), encapsulando cada folha de estilo em uma classe principal. Assim, conseguimos isolar as estilizações específicas de cada componente, evitando inconsistências no layout da aplicação.
+
+```
+CSS Isolado
+.lacuna {
+    &__header {
+        display: flex;
+        justify-content: left;
+    }
+
+  ... DEMAIS CLASSES CSS
+     th{
+            width: 50%;
+        }
+}
+
+CSS não isolado
+.lacuna__header     {
+  display: flex;
+  justify-content: left;
+}
+
+ ... DEMAIS CLASSES CSS
+
+th{
+  width: 50%;
+}
+
+```
+
+Exemplo de isolamento de CSS mencionado no parágrafo anterior. 
+</details>
+
 
 #### Hard Skills
 <details>
