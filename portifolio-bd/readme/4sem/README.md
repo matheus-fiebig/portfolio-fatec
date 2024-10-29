@@ -74,8 +74,6 @@ function salvarNota(data: any) {
 ```
 </details>
 
-#### - Desenvolvimento da tela de acompanhamento de parceiros:
-
 #### - Desenvolvimento do layout padrão e organização da estrutura CSS:
 Criei o layout da padrão de todas as telas (header, footer e content)
 <details>
@@ -179,24 +177,16 @@ Exemplo de isolamento de CSS mencionado no parágrafo anterior.
       <th width="300px">Classificação</th>
     </tr>
     <tr>
-      <td>SQL</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>MYSQL</td>
-      <td>★★★★☆☆☆☆☆☆</td>
-    </tr>
-    <tr>
       <td>HTML/CSS</td>
-      <td>★★★★★★★☆☆☆</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>VUE</td>
       <td>★★★★★★★☆☆☆</td>
     </tr>
     <tr>
-      <td>REST</td>
-      <td>★★★★★★☆☆☆☆</td>
+      <td>Typescript</td>
+      <td>★★★★★★★★★★</td>
     </tr>
     <tr>
       <td>Scrum</td>
@@ -220,19 +210,19 @@ Exemplo de isolamento de CSS mencionado no parágrafo anterior.
     </tr>
     <tr>
       <td>Comunicação</td>
-      <td>★★★★★★★★☆☆</td>
+      <td>★★★★★★★★★☆</td>
     </tr>
     <tr>
       <td>Trabalho em Equipe</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Resolução de Problemas</td>
       <td>★★★★★★★☆☆☆</td>
     </tr>
     <tr>
+      <td>Resolução de Problemas</td>
+      <td>★★★★★★★★★☆</td>
+    </tr>
+    <tr>
       <td>Responsabilidade</td>
-      <td>★★★★★★★★☆☆</td>
+      <td>★★★★★★★★★★</td>
     </tr>
   </table>
 </details>
