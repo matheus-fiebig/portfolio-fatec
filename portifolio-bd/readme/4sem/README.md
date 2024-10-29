@@ -74,6 +74,8 @@ function salvarNota(data: any) {
 ```
 </details>
 
+#### - Desenvolvimento da tela de acompanhamento de parceiros:
+
 #### - Desenvolvimento do layout padrão e organização da estrutura CSS:
 Criei o layout da padrão de todas as telas (header, footer e content)
 <details>
