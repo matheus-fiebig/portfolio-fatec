@@ -2,6 +2,7 @@
 
 ## Introdução
 
+
 Sou formado em Técnico em Informática pelo Colégio Técnico Opção. 
 <br>
 <br>
