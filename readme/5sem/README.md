@@ -11,9 +11,9 @@ Além disso, o sistema conseguia enviar notificações sobre as métricas da emp
 [GIT](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/README.md)
 
 #### Tecnologias Utilizadas
-- Java: Linguagem principal utilizada no backend, amplamente aplicada no desenvolvimento web e mobile. Orientada a objetos, é a principal linguagem ensinada na FATEC. Foi selecionada em função dos requisitos não funcionais.
+- Java: Linguagem principal utilizada no backend, amplamente aplicada no desenvolvimento web e mobile. Orientada a objetos, é a principal linguagem ensinada na FATEC. 
 
-- Spring Boot: Framework essencial para desenvolvimento web, utilizado na configuração e estruturação do projeto, criação de endpoints, persistência de dados e segurança da API. Escolhido em conformidade com requisitos não funcionais.
+- Spring Boot: Framework essencial para desenvolvimento web, utilizado na configuração e estruturação do projeto, criação de endpoints, persistência de dados e segurança da API.
 
 - TypeScript: Linguagem frontend escolhida em substituição ao JavaScript, proporcionando maior escalabilidade, facilidade de manutenção e depuração do código por conta de sua tipagem estática.
 
