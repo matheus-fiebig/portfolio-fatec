@@ -30,10 +30,10 @@ Nesse projeto atuei em três frentes
 
 Como Product Owner:
 #### - Criação e organização dos requisitos do projeto
-Fui responsável por elaborar todos os [requisitos] [https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/devops/Requisitos.md] do projeto.   
+Fui responsável por elaborar todos os [requisitos](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/devops/Requisitos.md) do projeto.   
 
 #### - Criação e manutenção do backlog
-Como PO, uma das minhas responsabilidades também foi a criação do [backlog][https://github.com/matheus-fiebig/portfolio-fatec/tree/main/5sem/backlog] para o time de desenvolvimento, garantindo que todas as tarefas estivessem alinhadas com a entrega de valor para o cliente.
+Como PO, uma das minhas responsabilidades também foi a criação do [backlog](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/5sem/backlog) para o time de desenvolvimento, garantindo que todas as tarefas estivessem alinhadas com a entrega de valor para o cliente.
 <details> 
 
     Estrutura das histórias para o time
