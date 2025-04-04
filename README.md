@@ -19,7 +19,7 @@ Além das tecnologias mencionadas, possuo conhecimento em outras áreas relacion
 - C#
 - Angular
 - Typescript
-- Html/CSS
+- HTML/CSS
 - SQL
 
 ## Meus Projetos
@@ -35,3 +35,10 @@ Além das tecnologias mencionadas, possuo conhecimento em outras áreas relacion
 
 ### Em 2024-1
 * [4º SEM](https://github.com/matheus-fiebig/bertoti/tree/main/portifolio-bd/readme/4sem)
+
+### Em 2024-2
+* [5º SEM](https://github.com/matheus-fiebig/bertoti/tree/main/portifolio-bd/readme/5sem)
+
+### Em 2025-1
+* [6º SEM](https://github.com/matheus-fiebig/bertoti/tree/main/portifolio-bd/readme/6sem)
+
