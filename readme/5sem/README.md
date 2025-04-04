@@ -22,7 +22,6 @@ Além disso, o sistema conseguia enviar notificações sobre as métricas da emp
 - PostgreSQL: Sua robustez, desempenho avançado e integração com o Sprint-Boot foram determinantes para a escolha. 
 
 #### Contribuições Pessoais
-**<br>**
 Nesse projeto atuei em três frentes 
 - Product Owner
 - Desenvolvedor 
