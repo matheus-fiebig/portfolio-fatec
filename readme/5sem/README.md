@@ -50,27 +50,32 @@ Como PO, uma das minhas responsabilidades também foi a criação do [backlog](h
 
 Como DEVOPS, minhas contribuições foram:
 #### - Orquestração do gitflow da equipe
-Nossos ambientes foram divididos da seguinte maneira:
-
-- **Main**
-- **Qas**
-- **Develop**
-
-A parte mais importante desse fluxo era o padrão de commits estabelecido, que levava em conta o número da subtarefa criada no JIRA (nossa ferramenta de gerenciamento).
-
-**Exemplo:**
-
-- **Jira**
-    - Task: PX-1 Criação de Usuário
-    - Subtask: PX-2 Criar endpoint de usuário
-- **Git**
-    - Commit: PX-2 Criar controller de usuário
-
-Esse ponto é crucial, pois permitia o início da nossa rastreabilidade, o que será discutido no próximo tópico.
+<details>
+    Nossos ambientes foram divididos da seguinte maneira:
+    
+    - **Main**
+    - **Qas**
+    - **Develop**
+    
+    A parte mais importante desse fluxo era o padrão de commits estabelecido, que levava em conta o número da subtarefa criada no JIRA (nossa ferramenta de gerenciamento).
+    
+    **Exemplo:**
+    
+    - **Jira**
+        - Task: PX-1 Criação de Usuário
+        - Subtask: PX-2 Criar endpoint de usuário
+    - **Git**
+        - Commit: PX-2 Criar controller de usuário
+    
+    Esse ponto é crucial, pois permitia o início da nossa rastreabilidade, o que será discutido no próximo tópico.    
+</details>
 
 #### - Traceabilidade dos requisitos funcionais e não funcionais:
-Fui responsável por organizar o fluxo de rastreabilidade dentro do sistema. Desenvolvi um modelo que possibilita identificar quais requisitos foram impactados por um commit, além de permitir a visualização das histórias afetadas por cada requisito.Para isso é apenas necessário utilizar o JIRA e o GIT.
+<details>
+    Fui responsável por organizar o fluxo de rastreabilidade dentro do sistema. Desenvolvi um modelo que possibilita identificar quais requisitos foram impactados por um commit, além de permitir a visualização das histórias afetadas por cada requisito.Para isso é apenas necessário utilizar o JIRA e o GIT.
 Você pode conferir mais detalhes no seguinte link: [LINK](https://github.com/api-5-sem/api-documentation/blob/main/devops/Traceabilidade_De_Requisitos.md).
+    
+</details>
 
 Como Desenvolvedor, minhas contribuições foram:
 
