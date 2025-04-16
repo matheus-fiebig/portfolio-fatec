@@ -28,6 +28,9 @@ Nesse projeto atuei em três frentes
 - Devops 
 
 Como Product Owner:
+#### - Concepção do produto
+Fui responsável por organizar e conceber o produto, quais seriam as funcionalidades e como elas se comportariam/conversariam dentro do sistema.
+
 #### - Criação e organização dos requisitos do projeto
 Fui responsável por elaborar todos os [requisitos](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/devops/Requisitos.md) do projeto.   
 
@@ -78,6 +81,8 @@ Você pode conferir mais detalhes no seguinte link: [LINK](https://github.com/ap
 </details>
 
 Como Desenvolvedor, minhas contribuições foram:
+### Criação do gráfico central
+### Criação da tela de permissionamento
 
 #### Hard Skills
 <details>
