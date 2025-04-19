@@ -84,7 +84,9 @@ Como Desenvolvedor, minhas contribuições foram:
 #### Componentizacao e criacao dos dashboards do sistema
     Criei o componente principal dos dashboards além de ter sido o responsável pela componentização dos gráficos. Diminuindo o código necessário para criar-se um novo gráfico e facilitando em muito o entendimento dos consumidores desse componente.
     <details>
-        
+```
+
+        app-graphic
           @Input() public idx: number = 0;
           @Input() public chartId: string = '';
           @Input() public description: string = '';
@@ -94,9 +96,17 @@ Como Desenvolvedor, minhas contribuições foram:
           @Input() public lineChartLabels: Array<any>;
           @Input() public lineChartColors: Array<any>
 
+```
+        Como pode ser visto acima todos os graficos utilizavam dessa mesma entrada de dados para serem exibidos, necessitando apenas a permutação desses valores para gerar gráficos diferentes (que era uma das propostas do nosso sistema). Além disso, um outro ganho foi a centralização da regra desse componente dentro de apenas um lugar facilitando features futuras como é o caso da feature de customização e compartilhamento de dashboard que podem ser vistas no codigo abaixo.
+```
 
+TODO
+
+```
     </details>
+
 #### Criação da tela de permissionamento
+Por fim fui responsável pela tela de atribuição de permissão do sistema, ela era uma tela bem simples que permitia o usuário atribuir ou remover a permissão de um grupo especifico 
 
 #### Hard Skills
 <details>
