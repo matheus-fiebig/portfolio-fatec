@@ -29,7 +29,7 @@ Nesse projeto atuei em três frentes
 
 Como Product Owner:
 #### - Concepção do produto
-Fui responsável por organizar e conceber o produto, quais seriam as funcionalidades e como elas se comportariam/conversariam dentro do sistema.
+Fui o principal responsável por compreender o problema do cliente e, com base nisso, conceber o produto, definindo suas funcionalidades e como elas se comportariam e se integrariam dentro do sistema.
 
 #### - Criação e organização dos requisitos do projeto
 Fui responsável por elaborar todos os [requisitos](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/devops/Requisitos.md) do projeto.   
@@ -81,8 +81,22 @@ Você pode conferir mais detalhes no seguinte link: [LINK](https://github.com/ap
 </details>
 
 Como Desenvolvedor, minhas contribuições foram:
-### Criação do gráfico central
-### Criação da tela de permissionamento
+#### Componentizacao e criacao dos dashboards do sistema
+    Criei o componente principal dos dashboards além de ter sido o responsável pela componentização dos gráficos. Diminuindo o código necessário para criar-se um novo gráfico e facilitando em muito o entendimento dos consumidores desse componente.
+    <details>
+        
+          @Input() public idx: number = 0;
+          @Input() public chartId: string = '';
+          @Input() public description: string = '';
+          @Input() public lineChartType: string = 'line';
+          @Input() public generatedValues: any[];
+          @Input() public lineChartData: Array<any>;
+          @Input() public lineChartLabels: Array<any>;
+          @Input() public lineChartColors: Array<any>
+
+
+    </details>
+#### Criação da tela de permissionamento
 
 #### Hard Skills
 <details>
