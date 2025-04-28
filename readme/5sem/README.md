@@ -83,7 +83,7 @@ Você pode conferir mais detalhes no seguinte link: [LINK](https://github.com/ap
 Como Desenvolvedor, minhas contribuições foram:
 #### Componentizacao e criacao dos dashboards do sistema
     Criei o componente principal dos dashboards além de ter sido o responsável pela componentização dos gráficos. Diminuindo o código necessário para criar-se um novo gráfico e facilitando em muito o entendimento dos consumidores desse componente.
-    <details>
+<details>
 ```
 
         app-graphic
@@ -96,17 +96,25 @@ Como Desenvolvedor, minhas contribuições foram:
           @Input() public lineChartLabels: Array<any>;
           @Input() public lineChartColors: Array<any>
 
-```
-        Como pode ser visto acima todos os graficos utilizavam dessa mesma entrada de dados para serem exibidos, necessitando apenas a permutação desses valores para gerar gráficos diferentes (que era uma das propostas do nosso sistema). Além disso, um outro ganho foi a centralização da regra desse componente dentro de apenas um lugar facilitando features futuras como é o caso da feature de customização e compartilhamento de dashboard que podem ser vistas no codigo abaixo.
-```
-
-TODO
 
 ```
-    </details>
+        Como pode ser visto acima, todos os gráficos utilizavam a mesma entrada de dados para serem exibidos, sendo necessária apenas a permutação desses valores para gerar gráficos diferentes, o que atendia a uma das propostas do nosso sistema. Além disso, outro ganho foi a centralização da regra desse componente em um único lugar, facilitando a implementação de funcionalidades futuras, como a customização e o compartilhamento de dashboards.
+        
+    <img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/ExportarPDF.png"> 
+</details>
 
-#### Criação da tela de permissionamento
-Por fim fui responsável pela tela de atribuição de permissão do sistema, ela era uma tela bem simples que permitia o usuário atribuir ou remover a permissão de um grupo especifico 
+#### Criacao da tela de permissionamento
+    Criei a tela de permissionamento, que permitia ao usuario controlar as permissoes de um determinado grupo do sistema
+
+<details>
+    <img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/GerirPermissoes.png"> 
+
+    Como pode ser visto na imagem acima, o controle de permissões era realizado em uma única página. O sistema obtinha todas as permissões existentes e, em seguida, todas as permissões que aquele grupo possuía. Quando os dois conjuntos de dados se interseccionavam, o sistema realizava a marcação do checkbox e adicionava a permissão a uma lista de permissões mantidas. Quando uma permissão era desmarcada, ela era removida dessa lista. Ao salvar, enviavam-se apenas as permissões que permaneciam no sistema.
+</details>
+
+#### Realizacao de testes unitarios
+    Neste semestre, o grupo se organizou para realizar testes unitários em todos os nossos projetos. Um dos principais motivadores para essa iniciativa foi a criação de um CI que validava esses testes. Diante disso, fiquei responsável por criar testes unitários para os componentes de dashboard, gráficos e permissionamento. As tecnologias utilizadas foram Jasmine e Karma.
+
 
 #### Hard Skills
 <details>
