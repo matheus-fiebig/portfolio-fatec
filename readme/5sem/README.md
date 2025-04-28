@@ -27,14 +27,14 @@ Nesse projeto atuei em três frentes
 - Desenvolvedor 
 - Devops 
 
-Como Product Owner:
-#### - Concepção do produto
+#### Como Product Owner:
+##### - Concepção do produto
 Fui o principal responsável por compreender o problema do cliente e, com base nisso, conceber o produto, definindo suas funcionalidades e como elas se comportariam e se integrariam dentro do sistema.
 
-#### - Criação e organização dos requisitos do projeto
+##### - Criação e organização dos requisitos do projeto
 Fui responsável por elaborar todos os [requisitos](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/devops/Requisitos.md) do projeto.   
 
-#### - Criação e manutenção do backlog
+##### - Criação e manutenção do backlog
 Como PO, uma das minhas responsabilidades também foi a criação do [backlog](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/5sem/backlog) para o time de desenvolvimento, garantindo que todas as tarefas estivessem alinhadas com a entrega de valor para o cliente.
 <details> 
 
@@ -50,9 +50,10 @@ Como PO, uma das minhas responsabilidades também foi a criação do [backlog](h
     -Cenários de execução baseados em eventos, criados para tornar a história mais testável e alinhada às interações do usuário na interface.
 
 </details>    
+<br>
 
-Como DEVOPS, minhas contribuições foram:
-#### - Orquestração do gitflow da equipe
+#### Como DEVOPS, minhas contribuições foram:
+##### - Orquestração do gitflow da equipe
 <details>
     Nossos ambientes foram divididos da seguinte maneira:
     
@@ -73,48 +74,48 @@ Como DEVOPS, minhas contribuições foram:
     Esse ponto é crucial, pois permitia o início da nossa rastreabilidade, o que será discutido no próximo tópico.    
 </details>
 
-#### - Traceabilidade dos requisitos funcionais e não funcionais:
+##### - Traceabilidade dos requisitos funcionais e não funcionais:
 <details>
     Fui responsável por organizar o fluxo de rastreabilidade dentro do sistema. Desenvolvi um modelo que possibilita identificar quais requisitos foram impactados por um commit, além de permitir a visualização das histórias afetadas por cada requisito.Para isso é apenas necessário utilizar o JIRA e o GIT.
 Você pode conferir mais detalhes no seguinte link: [LINK](https://github.com/api-5-sem/api-documentation/blob/main/devops/Traceabilidade_De_Requisitos.md).
+</details>
+<br>
+
+#### Como Desenvolvedor, minhas contribuições foram:
+##### Componentização e criacao dos dashboards do sistema
+Criei o componente principal dos dashboards além de ter sido o responsável pela componentização dos gráficos. Diminuindo o código necessário para criar-se um novo gráfico e facilitando em muito o entendimento dos consumidores desse componente.
     
-</details>
-
-Como Desenvolvedor, minhas contribuições foram:
-#### Componentizacao e criacao dos dashboards do sistema
-    Criei o componente principal dos dashboards além de ter sido o responsável pela componentização dos gráficos. Diminuindo o código necessário para criar-se um novo gráfico e facilitando em muito o entendimento dos consumidores desse componente.
 <details>
-```
+    
+app-graphic
+@Input() public idx: number = 0;
+@Input() public chartId: string = '';
+@Input() public description: string = '';
+@Input() public lineChartType: string = 'line';
+@Input() public generatedValues: any[];
+@Input() public lineChartData: Array<any>;
+@Input() public lineChartLabels: Array<any>;
+@Input() public lineChartColors: Array<any>
 
-        app-graphic
-          @Input() public idx: number = 0;
-          @Input() public chartId: string = '';
-          @Input() public description: string = '';
-          @Input() public lineChartType: string = 'line';
-          @Input() public generatedValues: any[];
-          @Input() public lineChartData: Array<any>;
-          @Input() public lineChartLabels: Array<any>;
-          @Input() public lineChartColors: Array<any>
-
-
-```
-        Como pode ser visto acima, todos os gráficos utilizavam a mesma entrada de dados para serem exibidos, sendo necessária apenas a permutação desses valores para gerar gráficos diferentes, o que atendia a uma das propostas do nosso sistema. Além disso, outro ganho foi a centralização da regra desse componente em um único lugar, facilitando a implementação de funcionalidades futuras, como a customização e o compartilhamento de dashboards.
+              
+Como pode ser visto acima, todos os gráficos utilizavam a mesma entrada de dados para serem exibidos, sendo necessária apenas a permutação desses valores para gerar gráficos diferentes, o que atendia a uma das propostas do nosso sistema. Além disso, outro ganho foi a centralização da regra desse componente em um único lugar, facilitando a implementação de funcionalidades futuras, como a customização e o compartilhamento de dashboards.
         
-    <img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/ExportarPDF.png"> 
+[<img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/ExportarPDF.gif"> ](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/assets/5sem/ExportarPDF.gif)
 </details>
 
-#### Criacao da tela de permissionamento
-    Criei a tela de permissionamento, que permitia ao usuario controlar as permissoes de um determinado grupo do sistema
+##### Criacao da tela de permissionamento
+Criei a tela de permissionamento, que permitia ao usuario controlar as permissoes de um determinado grupo do sistema
 
 <details>
-    <img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/GerirPermissoes.png"> 
+[<img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/GerirPermissoes.gif"> ](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/assets/5sem/GerirPermissoes.gif)
 
-    Como pode ser visto na imagem acima, o controle de permissões era realizado em uma única página. O sistema obtinha todas as permissões existentes e, em seguida, todas as permissões que aquele grupo possuía. Quando os dois conjuntos de dados se interseccionavam, o sistema realizava a marcação do checkbox e adicionava a permissão a uma lista de permissões mantidas. Quando uma permissão era desmarcada, ela era removida dessa lista. Ao salvar, enviavam-se apenas as permissões que permaneciam no sistema.
+Como pode ser visto na imagem acima, o controle de permissões era realizado em uma única página. O sistema obtinha todas as permissões existentes e, em seguida, todas as permissões que aquele grupo possuía. Quando os dois conjuntos de dados se interseccionavam, o sistema realizava a marcação do checkbox e adicionava a permissão a uma lista de permissões mantidas. Quando uma permissão era desmarcada, ela era removida dessa lista. Ao salvar, enviavam-se apenas as permissões que permaneciam no sistema.
 </details>
 
-#### Realizacao de testes unitarios
-    Neste semestre, o grupo se organizou para realizar testes unitários em todos os nossos projetos. Um dos principais motivadores para essa iniciativa foi a criação de um CI que validava esses testes. Diante disso, fiquei responsável por criar testes unitários para os componentes de dashboard, gráficos e permissionamento. As tecnologias utilizadas foram Jasmine e Karma.
+##### Realizacao de testes unitarios
+Neste semestre, o grupo se organizou para realizar testes unitários em todos os nossos projetos. Um dos principais motivadores para essa iniciativa foi a criação de um CI que validava esses testes. Diante disso, fiquei responsável por criar testes unitários para os componentes de dashboard, gráficos e permissionamento. As tecnologias utilizadas foram Jasmine e Karma.
 
+<br>
 
 #### Hard Skills
 <details>
