@@ -126,37 +126,31 @@ Neste semestre, o grupo se organizou para realizar testes unitários em todos os
       <th width="300px">Tecnologia/Metodologia</th>
       <th width="300px">Classificação</th>
     </tr>
-    <tr>TODO
+    <tr>
       <td>HTML/CSS</td>
       <td>★★★★★★★★★★</td>
     </tr>
-    <tr>TODO
+    <tr>
       <td>Angular</td>
       <td>★★★★★★★★★☆</td>
     </tr>
-    <tr>TODO
-      <td>Typescript</td>
       <td>★★★★★★★★★★</td>
     </tr>
-    <tr>TODO
+    <tr>
       <td>Scrum</td>
       <td>★★★★★★☆☆☆☆</td>
     </tr>
-    <tr> TODO
+    <tr> 
       <td>Devops</td>
-      <td>★★★★★☆☆☆☆☆</td>
+      <td>★★★★★★★☆☆☆</td>
     </tr>
     <tr>
       <td>Java</td>
-      <td>TODO</td>
+      <td>★★★★★☆☆☆☆☆</td>
     </tr>
     <tr>
       <td>Spring Boot</td>
-      <td>TODO</td>
-    </tr>
-    <tr>
-      <td>Devops</td>
-      <td>TODO</td>
+      <td>★★☆☆☆☆☆☆☆☆</td>
     </tr>
   </table>
 </details>
@@ -172,23 +166,23 @@ Neste semestre, o grupo se organizou para realizar testes unitários em todos os
     </tr>
     <tr>
       <td>Comunicação</td>
-      <td>TODO</td>
+      <td>★★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>Trabalho em Equipe</td>
-      <td>TODO</td>
+      <td>★★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>Resolução de Problemas</td>
-      <td>TODO☆</td>
+      <td>★★★★★★★★★★★</td>
     </tr>
     <tr>
       <td>Responsabilidade</td>
-      <td>TODO</td>
+      <td>★★★★★★★★★★★</td>
     </tr>
     <tr>
       <td>Organização</td>
-      <td>TODO</td>
+      <td>★★★★★★★★☆☆☆</td>
     </tr>
   </table>
 </details>
