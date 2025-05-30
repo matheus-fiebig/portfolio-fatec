@@ -46,8 +46,8 @@ Ela e divida em dois projetos, um projeto utilizado para teste e o outro a bibli
     2-GetUserDataAsync: Solicita ao usuário final a autorização para a portabilidade de seus dados.<br>
     3-DecryptUser: Método auxiliar utilizado para descriptografar os dados do usuário recebidos por meio do webhook.<br><br>
 
-    O processo se inicia com a criação de chaves de autorização pelo usuário, permitindo a comunicação com a API. <br>
-    Em seguida, é solicitada ao usuário final a autorização para a portabilidade dos dados. Durante todo o processo, as informações são protegidas por criptografia: utiliza-se criptografia assimétrica para proteger as chaves simétricas, que por sua vez são responsáveis por criptografar os dados transmitidos (tanto as requisições quanto as respostas) entre a API e a biblioteca.<br>
+    O processo se inicia com a criação de chaves de autorização pelo usuário, permitindo a comunicação com a API. 
+    Em seguida, é solicitada ao usuário final a autorização para a portabilidade dos dados. Durante todo o processo, as informações são protegidas por criptografia: utiliza-se criptografia assimétrica para proteger as chaves simétricas, que por sua vez são responsáveis por criptografar os dados transmitidos (tanto as requisições quanto as respostas) entre a API e a biblioteca.
     Após a solitiação, o usuário que solicitou a portabilidade recebe um link para acesso à API, onde a autorização é formalizada. Por fim, a API envia os dados criptografados do usuário ao consumidor por meio de um webhook seguro.
 </details>
 
