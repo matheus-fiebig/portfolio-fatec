@@ -35,7 +35,6 @@ Atuei como elo entre as necessidades do cliente e a capacidade equipe de desenvo
 ##### - Criação e organização dos requisitos do projeto
 Fui responsável por levantar, detalhar e priorizar os requisitos. Utilizei técnicas como histórias de usuário e critérios de aceitação para transformar as necessidades do cliente em tarefas compreensíveis e executáveis pela equipe de desenvolvimento. Os requisitos foram organizados e priorizados no backlog do projeto com base em valor de negócio.
 
-<br>
 
 #### Como Desenvolvedor, minhas contribuições foram:
 ##### Criação da biblioteca de portabilidade de dados ([GIT] (https://github.com/api-6-pixel/api-portabilidade))
@@ -43,15 +42,15 @@ Ela e divida em dois projetos, um projeto utilizado para teste e o outro a bibli
 <br> 
 <details>
     Esta biblioteca e divida em 3 metodos:
-    1-CreateNewAccessToken: Responsável por gerar as chaves de autorização que permitem a comunicação segura entre a biblioteca e a API.
-    2-GetUserDataAsync: Solicita ao usuário final a autorização para a portabilidade de seus dados.
-    3-DecryptUser: Método auxiliar utilizado para descriptografar os dados do usuário recebidos por meio do webhook.
+    1-CreateNewAccessToken: Responsável por gerar as chaves de autorização que permitem a comunicação segura entre a biblioteca e a API.<br>
+    2-GetUserDataAsync: Solicita ao usuário final a autorização para a portabilidade de seus dados.<br>
+    3-DecryptUser: Método auxiliar utilizado para descriptografar os dados do usuário recebidos por meio do webhook.<br><br>
 
-    O processo se inicia com a criação de chaves de autorização pelo usuário, permitindo a comunicação com a API. Em seguida, é solicitada ao usuário final a autorização para a portabilidade dos dados. Durante todo o processo, as informações são protegidas por criptografia: utiliza-se criptografia assimétrica para proteger as chaves simétricas, que por sua vez são responsáveis por criptografar os dados transmitidos (tanto as requisições quanto as respostas) entre a API e a biblioteca.
+    O processo se inicia com a criação de chaves de autorização pelo usuário, permitindo a comunicação com a API. <br>
+    Em seguida, é solicitada ao usuário final a autorização para a portabilidade dos dados. Durante todo o processo, as informações são protegidas por criptografia: utiliza-se criptografia assimétrica para proteger as chaves simétricas, que por sua vez são responsáveis por criptografar os dados transmitidos (tanto as requisições quanto as respostas) entre a API e a biblioteca.<br>
     Após a solitiação, o usuário que solicitou a portabilidade recebe um link para acesso à API, onde a autorização é formalizada. Por fim, a API envia os dados criptografados do usuário ao consumidor por meio de um webhook seguro.
 </details>
 
-<br>
 
 #### Hard Skills
 <details>
