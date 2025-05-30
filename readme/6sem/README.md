@@ -37,7 +37,7 @@ Fui responsável por levantar, detalhar e priorizar os requisitos. Utilizei téc
 
 
 #### Como Desenvolvedor, minhas contribuições foram:
-##### Criação da biblioteca de portabilidade de dados ([GIT] (https://github.com/api-6-pixel/api-portabilidade))
+##### Criação da biblioteca de portabilidade de dados ([GIT](https://github.com/api-6-pixel/api-portabilidade))
 Ela e divida em dois projetos, um projeto utilizado para teste e o outro a biblioteca em si. 
 <br> 
 <details>
