@@ -124,28 +124,28 @@ Como pode ser visto na imagem acima, o controle de permissões era realizado em 
       <th width="300px">Classificação</th>
     </tr>
     <tr>
-      <td>HTML/CSS</td>
-      <td>★★★★★★★★★★</td>
+      <td>Typescript</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>Angular</td>
       <td>★★★★★★★★★★</td>
     </tr>
     <tr>
-      <td>Scrum</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr> 
-      <td>Devops</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
       <td>Java</td>
-      <td>★★★★★☆☆☆☆☆</td>
+      <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
       <td>Spring Boot</td>
       <td>★★☆☆☆☆☆☆☆☆</td>
+    </tr>
+    <tr> 
+      <td>Devops</td>
+      <td>★★★★★★★★★☆</td>
+    </tr>
+    <tr> 
+      <td>PostgreSQL</td>
+      <td>★★★★☆☆☆☆☆☆</td>
     </tr>
   </table>
 </details>
