@@ -112,9 +112,6 @@ Criei a tela de permissionamento, que permitia ao usuario controlar as permissoe
 Como pode ser visto na imagem acima, o controle de permissões era realizado em uma única página. O sistema obtinha todas as permissões existentes e, em seguida, todas as permissões que aquele grupo possuía. Quando os dois conjuntos de dados se interseccionavam, o sistema realizava a marcação do checkbox e adicionava a permissão a uma lista de permissões mantidas. Quando uma permissão era desmarcada, ela era removida dessa lista. Ao salvar, enviavam-se apenas as permissões que permaneciam no sistema.
 </details>
 
-##### Realizacao de testes unitarios
-Neste semestre, o grupo se organizou para realizar testes unitários em todos os nossos projetos. Um dos principais motivadores para essa iniciativa foi a criação de um CI que validava esses testes. Diante disso, fiquei responsável por criar testes unitários para os componentes de dashboard, gráficos e permissionamento. As tecnologias utilizadas foram Jasmine e Karma.
-
 <br>
 
 #### Hard Skills
@@ -164,23 +161,15 @@ Neste semestre, o grupo se organizou para realizar testes unitários em todos os
     </tr>
     <tr>
       <td>Comunicação</td>
-      <td>★★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Trabalho em Equipe</td>
-      <td>★★★★★★★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Resolução de Problemas</td>
-      <td>★★★★★★★★★★★</td>
+      <td>★★★★★★★★★★☆</td>
     </tr>
     <tr>
       <td>Responsabilidade</td>
-      <td>★★★★★★★★★★★</td>
+      <td>★★★★★★★★★★☆</td>
     </tr>
     <tr>
       <td>Organização</td>
-      <td>★★★★★★★★☆☆☆</td>
+      <td>★★★★★★★☆☆☆☆</td>
     </tr>
   </table>
 </details>
