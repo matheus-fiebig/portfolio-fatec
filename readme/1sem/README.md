@@ -253,14 +253,6 @@ Fui responsável pelo monitoramento contínuo e pela cobrança diária das entre
       <td>★★★★★★★★☆☆</td>
     </tr>
     <tr>
-      <td>Trabalho em Equipe</td>
-      <td>★★★★★★★★★☆</td>
-    </tr>
-    <tr>
-      <td>Resolução de Problemas</td>
-      <td>★★★★★★★★★★</td>
-    </tr>
-    <tr>
       <td>Responsabilidade</td>
       <td>★★★★★★★★★★</td>
     </tr>
