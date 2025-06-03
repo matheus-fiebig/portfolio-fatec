@@ -238,5 +238,9 @@ Criação e organização de todo o backlog do projeto, user storys, prioridades
       <td>Responsabilidade</td>
       <td>★★★★★★★★☆☆</td>
     </tr>
+    <tr>
+      <td>Organização</td>
+      <td>★★★★★★★★★☆</td>
+    </tr>
   </table>
 </details>
