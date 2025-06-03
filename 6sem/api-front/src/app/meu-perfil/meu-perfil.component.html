@@ -1,0 +1,136 @@
+<ion-content appScrollbar>
+  <ion-card>
+    <ion-card-header>
+      <ion-title class="ion-text-center">
+        <ion-icon name="leaf-outline"></ion-icon> MEU PERFIL
+      </ion-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list [inset]="true">
+
+
+          <!-- MEU PERFIL -->
+          <ion-row>
+            <ion-col size="12">
+              <ion-title class="ion-text-center">MINHAS INFORMAÇÕES</ion-title>
+            </ion-col>
+          </ion-row>
+          <hr />
+
+    
+          <ion-row>
+            <ion-col size="6">
+              <ion-item>
+                <ion-label position="stacked">DOCUMENTO</ion-label>
+                <ion-input [disabled]="true" placeholder="Digite aqui" [(ngModel)]="usuarioData.documento"></ion-input>
+              </ion-item>
+            </ion-col>
+
+            <ion-col size="6">
+              <ion-item>
+                <ion-label position="stacked">DATA DE CADASTRO</ion-label>
+                <ion-label position="stacked">{{ usuarioData?.dataCriacao | date: 'dd/MM/yyyy' }}</ion-label>
+              </ion-item>
+            </ion-col>
+
+            <ion-col size="12">
+              <ion-item>
+                <ion-label position="stacked">NOME</ion-label>
+                <ion-input [disabled]="true" placeholder="Digite aqui" [(ngModel)]="usuarioData.nome"></ion-input>
+              </ion-item>
+            </ion-col>
+
+            <ion-col size="12">
+              <ion-item>
+                <ion-label position="stacked">EMAIL</ion-label>
+                <ion-input [disabled]="true" placeholder="Digite aqui" [(ngModel)]="usuarioData.email"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+
+          <ion-row class="ion-justify-content-end">
+            <ion-col size="2">
+              <ion-button expand="block" color="danger" (click)="excluirConta()">
+                Excluir minha conta
+              </ion-button>
+            </ion-col>
+          </ion-row>
+
+          <ion-grid [fixed]="true">
+          <!-- FAZENDAS INFO -->
+          <br />
+          <ion-row>
+            <ion-col size="12">
+              <ion-title class="ion-text-center">MEUS LOTES</ion-title>
+            </ion-col>
+          </ion-row>
+          <hr />
+          <ion-row>
+            <ion-col size="3">
+              <ion-item lines="none">
+                <ion-label position="stacked">NOME</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="3">
+              <ion-item lines="none">
+                <ion-label position="stacked">ESPECIE</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="2">
+              <ion-item lines="none">
+                <ion-label position="stacked">AREA</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="2">
+              <ion-item lines="none">
+                <ion-label position="stacked">DATA CADASTRO</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="2">
+              <ion-item lines="none">
+                <ion-label position="stacked">STATUS</ion-label>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+          <ion-row *ngFor="let plantacao of usuarioData?.plantacao">
+            <ion-col size="3">
+              <ion-item lines="none">
+                <ion-label>{{ plantacao.fazendaNome }}</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="3">
+              <ion-item lines="none">
+                <ion-label>{{ plantacao.especieNome }}</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="2">
+              <ion-item lines="none">
+                <ion-label>{{ plantacao.areaPlantada }}</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="2">
+              <ion-item lines="none">
+                <ion-label>{{ plantacao.dataPlantio | date: 'dd/MM/yyyy' }}</ion-label>
+              </ion-item>
+            </ion-col>
+            <ion-col size="2">
+              <ion-item lines="none">
+                <ion-label>{{ plantacao.status }}</ion-label>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+
+          <!-- BOTÃO EDITAR -->
+          <ion-row class="ion-justify-content-end" style="margin-top: 16px;">
+            <ion-col size="4" size-md="2">
+              <ion-button expand="block" (click)="irParaEditarPerfil()">EDITAR</ion-button>
+            </ion-col>
+          </ion-row>
+
+
+        </ion-grid>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
