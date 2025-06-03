@@ -210,19 +210,11 @@ Exemplo de isolamento de CSS mencionado no parágrafo anterior.
     </tr>
     <tr>
       <td>Comunicação</td>
-      <td>★★★★★★★★★☆</td>
-    </tr>
-    <tr>
-      <td>Trabalho em Equipe</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Resolução de Problemas</td>
-      <td>★★★★★★★★★☆</td>
+      <td>★★★☆☆☆☆☆☆☆</td>
     </tr>
     <tr>
       <td>Responsabilidade</td>
-      <td>★★★★★★★★★★</td>
+      <td>★★★★★☆☆☆☆☆</td>
     </tr>
   </table>
 </details>
