@@ -102,14 +102,6 @@ Ela e divida em dois projetos, um projeto utilizado para teste e o outro a bibli
       <td>★★★★★★★★★☆☆</td>
     </tr>
     <tr>
-      <td>Trabalho em Equipe</td>
-      <td>★★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Resolução de Problemas</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
       <td>Responsabilidade</td>
       <td>★★★★★★☆☆☆☆☆</td>
     </tr>
