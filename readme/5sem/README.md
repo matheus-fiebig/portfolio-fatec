@@ -132,8 +132,6 @@ Neste semestre, o grupo se organizou para realizar testes unitários em todos os
     </tr>
     <tr>
       <td>Angular</td>
-      <td>★★★★★★★★★☆</td>
-    </tr>
       <td>★★★★★★★★★★</td>
     </tr>
     <tr>
