@@ -183,14 +183,6 @@ Por fim, eu era responsável por reportar semanalmente ao nosso M2 o andamento c
       <td>★★★★★★☆☆☆☆</td>
     </tr>
     <tr>
-      <td>Trabalho em Equipe</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Resolução de Problemas</td>
-      <td>★★★★★★★★★☆</td>
-    </tr>
-    <tr>
       <td>Responsabilidade</td>
       <td>★★★★★★★★★☆</td>
     </tr>
