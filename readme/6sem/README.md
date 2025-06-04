@@ -6,7 +6,7 @@
 <br>
 **A SOLUÇÃO**  proposta consistiu no desenvolvimento de um sistema que permite ao usuário cadastrar e atualizar, em períodos arbitrários, dados relacionados à sua colheita. Com base nessas informações, o sistema é capaz de prever aspectos ligados ao crescimento e à projeção de gastos da colheita, além de sugerir melhorias por meio de algoritmos de classificação e agrupamento. Além disso, todo o desenvolvimento foi realizado em conformidade com as diretrizes da Lei Geral de Proteção de Dados (LGPD).
 
-[GIT](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/6sem/README.md)
+[GIT](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/6sem)
 
 #### Tecnologias Utilizadas
 - C#: Linguagem principal utilizada na criação da biblioteca de portabilidade. 
@@ -37,7 +37,7 @@ Fui responsável por levantar, detalhar e priorizar os requisitos. Utilizei téc
 
 
 #### Como Desenvolvedor, minhas contribuições foram:
-##### Criação da biblioteca de portabilidade de dados ([GIT](https://github.com/api-6-pixel/api-portabilidade))
+##### Criação da biblioteca de portabilidade de dados ([GIT](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/6sem/api-portabilidade))
 Ela e divida em dois projetos, um projeto utilizado para teste e o outro a biblioteca em si. 
 <br> 
 <details>
