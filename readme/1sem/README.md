@@ -7,7 +7,7 @@
 **A SOLUÇÃO** proporcionou ao usuário uma avaliação 360° dos times dos quais ele fazia parte e permitiu o acompanhamento de suas notas em um dashboard interativo, visando monitorar sua evolução a cada sprint.  <br>
 Além disso, o sistema permite que o administrador gerencie os usuários, a composição dos times e o fluxo das sprints.
 
-[GIT](https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/1sem/README.md)
+[GIT](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/1sem)
 
 #### Tecnologias Utilizadas
 - Python: Linguagem utilizada no backend para criação dos endpoints e implementação dos casos de uso.
@@ -164,7 +164,7 @@ O fluxo era realizado da seguinte maneira:
   
 1 - O usuário realizava o login na tela abaixo, e as informações do usuário autenticado, incluindo seu nível de permissão no sistema, eram armazenadas no local storage.
 
-<img src="https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/assets/1sem/tela_login.png"></img>
+<img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/assets/1sem/tela_login.png"></img>
 
 
 2 -  O script de criação dinâmica da sidebar era injetado para gerenciar o controle de permissionamento nas páginas subsequentes à login. Como mostrado no código abaixo, ocorre a substituição de todo o componente demarcado como menu-navbar por um HTML controlado pelo nível de permissão do usuário (admin-only). Essa abordagem reduzia o controle manual da sidebar no HTML, já que não era mais necessário adicionar cada item manualmente em todas as telas, diminuindo, por sua vez, as chances de erro.
