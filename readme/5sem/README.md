@@ -8,7 +8,7 @@
 <br>
 Além disso, o sistema conseguia enviar notificações sobre as métricas da empresa com a mesma flexibilidade oferecida aos gráficos e possuía a capacidade de exportar relatórios para Excel e PDF. 
 
-[GIT](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/README.md)
+[GIT](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/5sem)
 
 #### Tecnologias Utilizadas
 - Java: Linguagem principal utilizada no backend, amplamente aplicada no desenvolvimento web e mobile. Orientada a objetos, é a principal linguagem ensinada na FATEC. 
