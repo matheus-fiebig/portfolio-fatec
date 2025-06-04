@@ -11,7 +11,7 @@ Para o gestor, foi concedida a capacidade de lançar horas extras e extrair rela
 <br>
 Por fim, para o usuário, foi desenvolvida a funcionalidade de lançamento de horas extras e o acompanhamento detalhado das horas extras acumuladas ao longo do mês.
 
-[GIT](https://github.com/matheus-fiebig/portifolio-bd/tree/main/3sem)
+[GIT](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/3sem)
 
 #### Tecnologias Utilizadas
 - Java: Linguagem principal utilizada no nosso backend. Linguagem amplamente adotada no desenvolvimento web e mobile. Orientada a objeto e a principal linguagem ensinada na FATEC
@@ -177,7 +177,7 @@ Criação e organização de todo o backlog do projeto, user storys, prioridades
 <details>
  Como pode ser visto na imagem abaixo, todo o backlog e suas respectivas prioridades e user storys. Além disso há a organização por ÉPICOS e FEATURES de cada uma das histórias, bem como a sprint em que cada uma delas deveria entrar
 
- <img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/3sem/assets/backlog.png"> </img>
+ <img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/3sem/assets/backlog.png"> </img>
 </details>
 
 
