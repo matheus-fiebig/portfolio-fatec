@@ -77,7 +77,7 @@ Como PO, uma das minhas responsabilidades também foi a criação do [backlog](h
 ##### - Traceabilidade dos requisitos funcionais e não funcionais:
 <details>
     Fui responsável por organizar o fluxo de rastreabilidade dentro do sistema. Desenvolvi um modelo que possibilita identificar quais requisitos foram impactados por um commit, além de permitir a visualização das histórias afetadas por cada requisito.Para isso é apenas necessário utilizar o JIRA e o GIT.
-Você pode conferir mais detalhes no seguinte link: [LINK](https://github.com/api-5-sem/api-documentation/blob/main/devops/Traceabilidade_De_Requisitos.md).
+Você pode conferir mais detalhes no seguinte link: https://github.com/api-5-sem/api-documentation/blob/main/devops/Traceabilidade_De_Requisitos.md
 </details>
 <br>
 
@@ -100,14 +100,14 @@ app-graphic
               
 Como pode ser visto acima, todos os gráficos utilizavam a mesma entrada de dados para serem exibidos, sendo necessária apenas a permutação desses valores para gerar gráficos diferentes, o que atendia a uma das propostas do nosso sistema. Além disso, outro ganho foi a centralização da regra desse componente em um único lugar, facilitando a implementação de funcionalidades futuras, como a customização e o compartilhamento de dashboards.
         
-[<img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/ExportarPDF.gif"> ](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/assets/5sem/ExportarPDF.gif)
+<img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/assets/PDF.gif">
 </details>
 
 ##### Criacao da tela de permissionamento
 Criei a tela de permissionamento, que permitia ao usuario controlar as permissoes de um determinado grupo do sistema
 
 <details>
-[<img src="https://github.com/matheus-fiebig/portifolio-bd/blob/main/5sem/assets/GerirPermissoes.gif"> ](https://github.com/matheus-fiebig/portfolio-fatec/blob/main/assets/5sem/GerirPermissoes.gif)
+<img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/assets/Permissionamento.gif"> 
 
 Como pode ser visto na imagem acima, o controle de permissões era realizado em uma única página. O sistema obtinha todas as permissões existentes e, em seguida, todas as permissões que aquele grupo possuía. Quando os dois conjuntos de dados se interseccionavam, o sistema realizava a marcação do checkbox e adicionava a permissão a uma lista de permissões mantidas. Quando uma permissão era desmarcada, ela era removida dessa lista. Ao salvar, enviavam-se apenas as permissões que permaneciam no sistema.
 </details>
