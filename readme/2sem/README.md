@@ -11,7 +11,7 @@ Para o gestor, foi concedida a capacidade de lançar horas extras e extrair rela
 <br>
 Por fim, para o usuário, foi desenvolvida a funcionalidade de lançamento de horas extras e o acompanhamento detalhado das horas extras acumuladas ao longo do mês.
 
-[GIT](https://github.com/matheus-fiebig/portifolio-bd/tree/main/2sem)
+[GIT](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/2sem)
 
 #### Tecnologias Utilizadas
 - Java: Linguagem principal utilizada no nosso projeto. A linguagem foi amplamente adotada tanto na manipulação dos dados quanto na crição de eventos atrelados a exibição de dados desses.
@@ -61,7 +61,7 @@ Participei também do desenvolvimento da tela de cadastro e de visualização do
 
 <details>
 
-<img src="https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/assets/2sem/tela_gerenciamento%20cr.png"></img>
+<img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/assets/2sem/tela_gerenciamento%20cr.png"></img>
 
 Como pode ser visto acima, o usuário selecionava um CR e selecionava qual integrante do sistema ia ser atribuído aquele CR. Nesta tela fui responsável, também, por toda a parte de criação do Layout e regras de cadastro / visualização
 </details>
@@ -131,7 +131,7 @@ Como scrum master, minhas contribuições foram:
 
 Também fui responsável pela criação e acompanhamento das entregas da squad durante todas as sprints. Acompanhando de perto cada impedimento que o time pudesse vir a sofrer e fornecendo o devido apoio para cada integrante nesses momentos.
 
-Também fui responsável pela criação manual do burndown e pela atualização diária de seus valores, como parte desse processo. A principal razão para a implementação do burndown foi a ausência de uma ferramenta tecnológica que auxiliasse no acompanhamento, como o Jira, na época. Para mais detalhes, segue o link dos <a href="https://github.com/matheus-fiebig/bertoti/blob/main/portifolio-bd/2sem/assets/burndown/">burndowns</a>.
+Também fui responsável pela criação manual do burndown e pela atualização diária de seus valores, como parte desse processo. A principal razão para a implementação do burndown foi a ausência de uma ferramenta tecnológica que auxiliasse no acompanhamento, como o Jira, na época. Para mais detalhes, segue o link dos <a href="https://github.com/matheus-fiebig/portfolio-fatec/tree/main/2sem/assets/burndown">burndowns</a>.
 
 #### - Status report para o M2:
 
