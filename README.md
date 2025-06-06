@@ -62,7 +62,7 @@ Como não foi utilizado nenhum framework, toda a renderização desta tela é fe
 #### - Criação da tela de login e  controle de permissionamento:
 Para implementar o sistema de permissionamento nesta API, desenvolvi um controle de rotas no frontend, permitindo que cada usuário visualizasse apenas os recursos compatíveis com seu nível de permissão (no caso, havia dois tipos: administrador e usuário comum). Como mencionado anteriormente, a ausência de um framework tornava o desenvolvimento mais desafiador. Para superar essa dificuldade, criei um script que inseria dinamicamente toda a barra lateral na página do usuário, levando em consideração o seu nivel de permissionamento.<br>
 O fluxo era realizado da seguinte maneira:<br>  
-1 - O usuário realizava o login na tela abaixo, e as informações do usuário autenticado, incluindo seu nível de permissão no sistema, eram armazenadas no local storage.
+1 - O usuário realizava o login na tela abaixo, e as informações do usuário autenticado, incluindo seu nível de permissão no sistema, eram armazenadas no local storage.<br>
 2 - O script de criação dinâmica da sidebar era injetado para gerenciar o controle de permissionamento nas páginas subsequentes à login. Como mostrado no código abaixo, ocorre a substituição de todo o componente demarcado como menu-navbar por um HTML controlado pelo nível de permissão do usuário (admin-only). Essa abordagem reduzia o controle manual da sidebar no HTML, já que não era mais necessário adicionar cada item manualmente em todas as telas, diminuindo, por sua vez, as chances de erro.
 
 Como scrum master, minhas contribuições foram:
