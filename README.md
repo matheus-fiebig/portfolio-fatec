@@ -22,14 +22,14 @@ Além das tecnologias mencionadas, possuo conhecimento em outras áreas relacion
 - SQL
 
 ## Sumário
-- [Avaliacao 360](#avaliacao-360)
+- [Avaliação 360](#avaliação-360)
 - [Gerenciamento de Horas Extras 1](#gerenciamento-de-horas-extras-1)
 - [Gerenciamento de Horas Extras 2](#gerenciamento-de-horas-extras-2)
 - [Acompanhamento de Parceiros](#acompanhamento-de-parceiros)
 - [Análise de Recrutamento e Seleção](#análise-de-recrutamento-e-seleção)
 - [Gestão de Reflorestamento](#gestão-de-reflorestamento)
 
-## Avaliacao 360
+## Avaliação 360
 **A EMPRESA** parceira escolhida foi a FATEC.
 <br>
 <p align="center">
