@@ -5,7 +5,7 @@
 Sou formado em Técnico em Informática pelo Colégio Técnico Opção. 
 <br>
 <br>
-Desde 2020, venho atuando na área de desenvolvimento de software. Minhas principais tecnologias são Angular e .NET. Ao longo da minha carreira, tive a oportunidade de trabalhar em algumas empresas como GSW, Stefanini, DEAL, Simptec e B3.
+Desde 2020, venho atuando na área de desenvolvimento de software. Minhas principais tecnologias são Angular e .NET. Ao longo da minha carreira, tive a oportunidade de trabalhar em algumas empresas como GSW, Stefanini, DEAL e B3.
 <br><br>
 Além das tecnologias mencionadas, possuo conhecimento em outras áreas relacionadas ao desenvolvimento de software, como bancos de dados, metodologias ágeis e boas práticas de programação.
 
