@@ -660,8 +660,6 @@ Criei a tela de permissionamento, que permitia ao usuario controlar as permissoe
 <br>
 **A SOLUÇÃO**  proposta consistiu no desenvolvimento de um sistema que permite ao usuário cadastrar e atualizar, em períodos arbitrários, dados relacionados à sua colheita. Com base nessas informações, o sistema é capaz de prever aspectos ligados ao crescimento e à projeção de gastos da colheita, além de sugerir melhorias por meio de algoritmos de classificação e agrupamento. Além disso, todo o desenvolvimento foi realizado em conformidade com as diretrizes da Lei Geral de Proteção de Dados (LGPD).
 
-[GIT](https://github.com/matheus-fiebig/portfolio-fatec/tree/main/6sem)
-
 #### Tecnologias Utilizadas
 - C#
 - Java
