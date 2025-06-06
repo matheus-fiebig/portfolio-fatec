@@ -489,7 +489,7 @@ th{
 **A EMPRESA** parceira escolhida foi a PRO4TECH.
 <br>
 <p align="center">
-  <img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/assets/Login.gif">
+  <img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/assets/Exibicao-de-graficos.gif">
 </p>
 
 **O PROBLEMA** proposto pela empresa parceira foi a criação de um dashboard interativo para análise de dados de recrutamento e seleção. Além disso, a plataforma tinha como objetivo resolver questões relacionadas à centralização de dados, permitindo a integração de informações provenientes de diversas fontes em um único dashboard interativo, auxiliando a empresa na tomada de decisões estratégicas. 
