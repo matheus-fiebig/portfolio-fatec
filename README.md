@@ -644,7 +644,7 @@ Criei a tela de permissionamento, que permitia ao usuario controlar as permissoe
   Responsabilidade foi a minha segunda escolha, pois, como trabalhamos com sprints, garantir uma entrega é sempre um compromisso. Se algo foi acordado como parte da entrega no início, considero fundamental me comprometer para que ela seja concluída no final. Assumir esse compromisso com seriedade é essencial para manter a confiança e a previsibilidade dentro do time.
   
   ### Organização
-  Escolhi a organização especialmente por ter atuado, também, como PO neste semestre. Saber me organizar e repassar essa organização para o time é sempre bem-vindo. Se eu não consigo estruturar as demandas de forma eficaz, a entrega do time como um todo acaba sendo impactada.
+  Escolhi a organização especialmente por ter atuado, também, como PO neste semestre. Saber me organizar e repassar essa organização para o time é sempre bem-vindo. Se eu não consigo estruturar as demandas de forma eficaz, a entrega do time como um todo acaba sendo impactada. Inclusive esse foi um dos pontos de feedback do próprio time durante o decorrer das sprints.
 <hr>
 
 
