@@ -23,11 +23,11 @@ Além das tecnologias mencionadas, possuo conhecimento em outras áreas relacion
 
 ## Sumário
 - [Avaliacao 360](#avaliacao-360)
-- [Gerenciamento de Horas Extras 1](#gerenciamento-de-horas-extras)
-- [Gerenciamento de Horas Extras 2](#gerenciamento-de-horas-extras)
+- [Gerenciamento de Horas Extras 1](#gerenciamento-de-horas-extras-1)
+- [Gerenciamento de Horas Extras 2](#gerenciamento-de-horas-extras-2)
 - [Acompanhamento de Parceiros](#acompanhamento-de-parceiros)
-- [Análise de Recrutamento e Seleção](#analise-de-recrutamento-e-selecao)
-- [Gestão de Reflorestamento](#gestao-de-reflorestamento)
+- [Análise de Recrutamento e Seleção](#análise-de-recrutamento-e-seleção)
+- [Gestão de Reflorestamento](#gestão-de-reflorestamento)
 
 ## Avaliacao 360
 **A EMPRESA** parceira escolhida foi a FATEC.
@@ -489,7 +489,7 @@ th{
 **A EMPRESA** parceira escolhida foi a PRO4TECH.
 <br>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/082bcf5f-db53-40b2-8e97-0fc633f4f1f1">
+  <img src="https://github.com/matheus-fiebig/portfolio-fatec/blob/main/5sem/assets/Login.gif">
 </p>
 
 **O PROBLEMA** proposto pela empresa parceira foi a criação de um dashboard interativo para análise de dados de recrutamento e seleção. Além disso, a plataforma tinha como objetivo resolver questões relacionadas à centralização de dados, permitindo a integração de informações provenientes de diversas fontes em um único dashboard interativo, auxiliando a empresa na tomada de decisões estratégicas. 
